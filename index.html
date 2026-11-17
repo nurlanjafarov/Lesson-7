@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <form onsubmit="OnSubmit(event)" name="myForm">
+            <div class="form-item">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email : " minlength="12">
+ 
+                <span class="error" id="email_error"></span>
+            </div>
+ 
+            <div class="form-item">
+                <label for="Password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter Password : ">
+ 
+                <span class="error" id="password_error"></span>
+            </div>
+ 
+            <div class="form-item">
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </div>
+        </form>
+    </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<script src="index.js"></script>
+</body>
+</html>

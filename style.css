@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    outline: none;
+};
+
+input{
+    border-radius: 2px;
+    border: 2px solid lightgray;
+    padding: 4px;
+};
+
+
+input,label,button{
+    display: inline-block;
+    transition-property: border;
+    transition-duration: 1s;
+    font-size: 3em;
+}
+
+.container{
+    width: 40%;
+    margin: auto;
+}
+
+.form-item{
+    padding: 8px;
+    margin: 4px;
+}
+
+button{
+    margin-top: 2px;
+}
+
+.error{
+    color:red;
+    font-size: 1em;
+    font-family: JetBrains Mono;
+}
+
+input[type="email"]:focus{
+box-shadow: 0 0 10px deepskyblue;
+}
+
+input[type="email"]:valid{
+box-shadow: 0 0 10px springgreen;
+
+}
+
+input[type="email"]:invalid{
+box-shadow: 0 0 10px red;
+
+}
+
+
